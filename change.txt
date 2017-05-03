@@ -1,0 +1,6 @@
+1. set enable pooling to false at D:\Program Files\jboss-eap-5.1.1\jboss-eap-5.1\jboss-as\server\XLGS\deployers\jbossweb.deployer\web.xml
+
+<servlet> <servlet-name>jsp</servlet-name>
+ <servlet-class>org.apache.jasper.servlet.JspServlet</servlet-class>
+ <init-param> <param-name>enablePooling</param-name> <param-value>false</param-value> </init-param> <init-param> <param-name>fork</param-name> <param-value>false</param-value> </init-param> <init-param>
+
